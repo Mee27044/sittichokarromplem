@@ -1,1 +1,209 @@
-# sittichokarromplem
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sittichok Arromplem - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+      scroll-behavior: smooth;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+      position: relative;
+    }
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 4px solid #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      margin-top: 160px;
+      font-size: 40px;
+    }
+    header p {
+      font-size: 20px;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background: #222;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      z-index: 1000;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+    nav a {
+      color: #ddd;
+      padding: 16px 20px;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.3s;
+      font-size: 18px;
+    }
+    nav a:hover {
+      background: #333;
+      color: #fff;
+    }
+    section {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #111;
+      border-left: 5px solid #555;
+      padding-left: 10px;
+      font-size: 30px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 4px solid #333;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      font-size: 20px;
+      position: relative;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      font-size: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #ccc;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+      header p, nav a, .card, ul {
+        font-size: 16px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1CH1zuiSQASiygPqODNJac23roVmK41w3Nw&s" alt="Profile Picture">
+  <h1>Sittichok Arromplem</h1>
+  <p>📞 095-045-5462 | ✉️ sittichokarromplem@gmail.com | 🌐 <a href="https://rmutr.ac.th" style="color: #4fc3f7; text-decoration: underline;">RMUTR Website</a></p>
+</header>
+
+<nav>
+  <a href="#objective">Objective</a>
+  <a href="#education">Education</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#languages">Languages</a>
+</nav>
+
+<section id="objective">
+  <h2>Career Objective</h2>
+  <p>A highly motivated Electronics and Telecommunications Engineering graduate with hands-on experience in electrical systems, embedded programming, and telecommunication technology.</p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul>
+    <li><strong>B.Eng. in Telecommunication Engineering</strong> - Rajamangala University of Technology Rattanakosin (2021–2025)</li>
+    <li><strong>Diploma in Industrial Electronics</strong> - Ratchaburi Technical College (2019–2021)</li>
+    <li><strong>Vocational Certificate in Electronics</strong> - Ratchaburi Technical College (2016–2019)</li>
+  </ul>
+</section>
+
+<section id="experience">
+  <h2>Work Experience</h2>
+  <div class="card" style="background-image: url('https://via.placeholder.com/800x500?text=Car+Audio'); background-size: cover; background-position: center;">
+    <strong>Car Audio Technician – Freelance</strong>
+    <p>Installed car audio systems, speaker enclosures, rear cameras, and in-vehicle electrical systems.</p>
+  </div>
+  <div class="card" style="background-image: url('https://via.placeholder.com/800x500?text=EGAT+Maintenance'); background-size: cover; background-position: center;">
+    <strong>Maintenance Technician – EGAT</strong>
+    <p>Maintained and repaired valves and electrical components in turbine cooling systems.</p>
+  </div>
+  <div class="card" style="background-image: url('https://via.placeholder.com/800x500?text=System+Design'); background-size: cover; background-position: center;">
+    <strong>System Designer – iService and Supply Co., Ltd.</strong>
+    <p>Designed and configured CCTV and telecom systems; conducted site surveys and prepared documentation.</p>
+  </div>
+  <div class="card" style="background-image: url('https://via.placeholder.com/800x500?text=Electrical+Contracting'); background-size: cover; background-position: center;">
+    <strong>Electrical Contractor – Freelance</strong>
+    <p>Designed and installed residential and outdoor electrical systems including switches and wiring.</p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <strong>Soil Moisture Monitoring System</strong>
+    <p>Used Raspberry Pi and ADC to monitor and display soil moisture levels. Programmed in Python.</p>
+  </div>
+  <div class="card">
+    <strong>RS485 Sensor Communication</strong>
+    <p>Developed code on ESP32 and Raspberry Pi to read NPK values from soil sensors using Modbus protocol.</p>
+  </div>
+  <div class="card">
+    <strong>Voice Control with Speech Recognition</strong>
+    <p>Created a voice-controlled system using Python and offline speech recognition to control sensor queries.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>Embedded Programming (C/C++ for ESP32, Arduino)</li>
+    <li>Python (data collection, hardware interfacing)</li>
+    <li>Electrical Installation (household and automotive)</li>
+    <li>Telecommunication Systems and CCTV setup</li>
+    <li>PCB Design and Soldering</li>
+  </ul>
+</section>
+
+<section id="languages">
+  <h2>Languages</h2>
+  <ul>
+    <li>Thai – Native</li>
+    <li>English – Intermediate (Technical Reading/Writing)</li>
+  </ul>
+</section>
+
+<footer>
+  &copy; 2025 Sittichok Arromplem. All rights reserved.
+</footer>
+
+</body>
+</html>
